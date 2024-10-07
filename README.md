@@ -11,7 +11,7 @@ The project covers two main areas:
 1. **Fixed input model**:  
    A fixed input model assumes that the oil price is $60 per barrel in the base year and grows at 2.25% annually. The NPV of the oil field is calculated both pre- and post-tax.
 
-2. **Monte Carlo simulation**:  
+3. **Monte Carlo simulation**:  
    A Monte Carlo simulation is performed to assess the risk associated with oil price uncertainty. The simulation uses two models:
    - **Uniform Distribution**: Simulates oil prices between $20 and $100 with equal probability.
    - **Log-normal Distribution**: Models historical oil price data from 1974 to 2024, with simulations run on both nominal and inflation-adjusted prices.
@@ -20,12 +20,35 @@ The project covers two main areas:
 
 - **Fixed Input Model**:  
   Under the base scenario, the project is viable with a positive NPV. Sensitivity analysis shows that only a significant drop in oil prices would make the project unviable.
-  
+
 - **Monte Carlo Simulation**:  
   - **Uniform Distribution**: Shows a 78% probability of a positive NPV.
   - **Log-normal Distribution**:
     - **Nominal Prices**: 40% probability of a positive NPV.
     - **Inflation-Adjusted Prices**: 87% probability of a positive NPV.
+   
+## Visuals and Figures
+
+- **Fixed Input Model Calculations**  
+  ![Fixed Input Model Calculations](img/Calculations%20-%20Fixed%20input%20model.png)
+
+- **Tornado Analysis (Sensitivity of NPV to Key Variables)**  
+  ![Tornado Analysis](img/Tornado%20analysis.png)
+
+- **Nominal vs Inflation-adjusted Oil Prices (1974-2024)**  
+  ![Nominal vs Inflation-adjusted Oil Prices](img/Nominal%20vs%20inflation-adjusted%20oil%20price.png)
+
+- **NPV Distribution (Log-normal, Inflation-adjusted Oil Price)**  
+  ![NPV Distribution - Inflation-adjusted Oil Price](img/NPV%20distribution%20(log-normal,%20inflation-adjusted%20oil%20price).png)
+
+- **NPV Distribution (Log-normal, Nominal Oil Price)**  
+  ![NPV Distribution - Nominal Oil Price](img/NPV%20distribution%20(log-normal,%20nominal%20oil%20price).png)
+
+- **NPV Distribution (Uniform Oil Price)**  
+  ![NPV Distribution - Uniform Oil Price](img/NPV%20distribution%20(uniform%20oil%20price).png)
+
+- **Box Plot of NPV under Different Oil Price Assumptions**  
+  ![Box plot of NPV under Different Oil Price Assumptions](img/Box%20plot%20-%20NPV.png)
 
 ## How to Use the Model
 
@@ -50,3 +73,5 @@ The project covers two main areas:
 ## Contribution Guidelines
 
 Contributions are welcome! Please feel free to submit a pull request or raise an issue if you have any suggestions.
+
+
