@@ -1,4 +1,4 @@
-# Financial analysis of oil field
+# Financial analysis of an oil field
 
 ## Overview
 
